@@ -24,7 +24,7 @@ after_install() {
     debsystemctl=$(command -v deb-systemd-invoke || echo systemctl)
     systemctl preset pve-fake-subscription.timer >/dev/null || true
     $debsystemctl start pve-fake-subscription.timer >/dev/null || true
-
+    grep -qxF "127.0.0.1 shop.maurer-it.com" /etc/hosts || printf "\n# Block traffic to subscription validation server\n\n127.0.0.1 shop.maurer-it.com\n" >> /etc/hosts
     pve-fake-subscription
 }
 
