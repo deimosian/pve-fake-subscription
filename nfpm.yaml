@@ -1,7 +1,7 @@
 name: "pve-fake-subscription"
 arch: "all"
 platform: "linux"
-version: "0.0.9"
+version: "1.0.0"
 version_schema: "semver"
 version_metadata: "git"
 
@@ -15,10 +15,9 @@ maintainer: "Nobody <nobody@example.com>"
 depends:
 - python3
 description: |
-  Pollute the subscription cache of Proxmox VE (>=5.0), Proxmox Mail Gateway (>=5.0) & Proxmox Backup Server (>=1.0) so it won't alert you on dashboard login
-vendor: "none"
-homepage: "https://github.com/Jamesits/pve-fake-subscription"
-license: "GLWTS(Good Luck With That Shit) Public License"
+  Spoof the subscription status of Proxmox VE (>=5.0), Proxmox Mail Gateway (>=5.0) & Proxmox Backup Server (>=1.0) to report "Homelab" subscription.
+homepage: "https://github.com/deimosian/pve-fake-subscription"
+license: "MIT License"
 
 contents:
 - src: "./usr/bin/pve-fake-subscription"
