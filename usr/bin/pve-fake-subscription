@@ -111,7 +111,7 @@ if __name__ == "__main__":
     # Proxmox VE
     if os.path.exists("/etc/pve"):
         print("Activating Proxmox VE...")
-        activate_pve_pmg("pve-3133731337", "/etc/subscription")
+        activate_pve_pmg("pve8p-3133731337", "/etc/subscription")
 
     # Proxmox Mail Gateway
     if os.path.exists("/etc/pmg"):
