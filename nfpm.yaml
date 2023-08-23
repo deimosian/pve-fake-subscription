@@ -10,7 +10,7 @@ release: 1
 section: "admin"
 priority: "optional"
 
-maintainer: "Nobody <nobody@example.com>"
+maintainer: "Nobody <admin@homelab>"
 
 depends:
 - python3
