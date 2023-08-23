@@ -22,13 +22,13 @@ Highlights:
 - Future-proof: persists between system updates & major upgrades
 - Hassle-free: you can uninstall at any time
 - Comes with standard Debian package, easy to manage and automate
+- Prevents fake keys from being checked against the Proxmox servers
 - **No JavaScript is involved** in the whole process, as I believe JavaScript is harmful to developers
 
 ## Installation / Usage
 
-1. [Download the latest release](https://github.com/Jamesits/pve-fake-subscription/releases/latest)
+1. [Download the latest release](https://github.com/deimosian/pve-fake-subscription/releases/latest)
 1. Install: run `dpkg -i pve-fake-subscription_*.deb` as root on every node
-1. (Optional) `echo "127.0.0.1 shop.maurer-it.com" | sudo tee -a /etc/hosts` to prevent fake keys from being checked against the Proxmox servers
 
 Notes:
 
