@@ -6,6 +6,8 @@ Disables the "No valid subscription" dialog on all Proxmox products.
 
 > I am really poor and I can't afford a license. I just want to get rid of the annoying dialog.
 
+Fork replaces weeb shit with Homelab.
+
 ## Features
 
 Works for:
